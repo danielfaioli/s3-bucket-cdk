@@ -11,6 +11,6 @@ class S3BucketCdkStack(cdk.Stack):
 
     def __init__(self, scope: cdk.Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
-        s3.Bucket(self, 'First-Cdk-Bucket', bucket_name='My-First-Cdk-Bucket')
+        s3.Bucket(self, 'my-first-thortheo-cdk-bucket', bucket_name='my-first-thortheo-cdk-bucket')
 
         # The code that defines your stack goes here
